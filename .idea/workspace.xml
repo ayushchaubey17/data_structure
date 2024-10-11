@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/queue/QueueUsingTwoStacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/StackUsingTwoQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/UsingJCF.java" afterDir="false" />
+    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="stack using queue m1">
+      <change afterPath="$PROJECT_DIR$/src/queue/StackUsingTwoQueue2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StackUsingTwoQueue">
+  <component name="RunManager" selected="Application.StackUsingTwoQueue2">
     <configuration name="Int" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queue.Int" />
       <module name="Data_structure" />
@@ -92,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsingJCF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.UsingJCF" />
+    <configuration name="StackUsingTwoQueue2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.StackUsingTwoQueue2" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackUsingTwoQueue2" />
         <item itemvalue="Application.StackUsingTwoQueue" />
         <item itemvalue="Application.QueueUsingTwoStacks (1)" />
         <item itemvalue="Application.Int" />
         <item itemvalue="Application.QueueUsingTwoStacks" />
-        <item itemvalue="Application.UsingJCF" />
       </list>
     </recent_temporary>
   </component>
@@ -124,6 +122,28 @@
       <option name="presentableId" value="Default" />
       <updated>1728548397958</updated>
     </task>
+    <task id="LOCAL-00001" summary="using collection framework">
+      <created>1728635335510</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728635335510</updated>
+    </task>
+    <task id="LOCAL-00002" summary="using stack">
+      <created>1728635366433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728635366433</updated>
+    </task>
+    <task id="LOCAL-00003" summary="stack using queue m1">
+      <created>1728635395964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728635395964</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,5 +156,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="using collection framework" />
+    <MESSAGE value="using stack" />
+    <MESSAGE value="stack using queue m1" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack using queue m1" />
   </component>
 </project>

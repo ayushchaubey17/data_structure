@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="stack using queue m2">
-      <change afterPath="$PROJECT_DIR$/src/queue/NonRepeatingLetterInAAtream.java" afterDir="false" />
+    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="InterLeave Two Halfs Of A Queue">
+      <change afterPath="$PROJECT_DIR$/src/deque/QueueUsingDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deque/UsingJCF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/ReverseTheQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +39,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NonRepeatingLetterInAAtream">
-    <configuration name="Int" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.Int" />
+  <component name="RunManager" selected="Application.QueueUsingDeque">
+    <configuration name="InterLeaveTwoHalfsOfAQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.InterLeaveTwoHalfsOfAQueue" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +66,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueUsingTwoStacks (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.QueueUsingTwoStacks" />
+    <configuration name="QueueUsingDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deque.QueueUsingDeque" />
+      <module name="Data_structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="deque.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseTheQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.ReverseTheQueue" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
@@ -77,25 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackUsingTwoQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.StackUsingTwoQueue" />
+    <configuration name="UsingJCF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deque.UsingJCF" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackUsingTwoQueue2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.StackUsingTwoQueue2" />
-      <module name="Data_structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="deque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueUsingDeque" />
+        <item itemvalue="Application.UsingJCF" />
+        <item itemvalue="Application.ReverseTheQueue" />
+        <item itemvalue="Application.InterLeaveTwoHalfsOfAQueue" />
         <item itemvalue="Application.NonRepeatingLetterInAAtream" />
-        <item itemvalue="Application.StackUsingTwoQueue2" />
-        <item itemvalue="Application.StackUsingTwoQueue" />
-        <item itemvalue="Application.QueueUsingTwoStacks (1)" />
-        <item itemvalue="Application.Int" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728637921629</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="non repeating char of a stream">
+      <created>1728640431610</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728640431610</updated>
+    </task>
+    <task id="LOCAL-00006" summary="InterLeave Two Halfs Of A Queue">
+      <created>1728641892736</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728641892736</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +185,9 @@
     <MESSAGE value="using stack" />
     <MESSAGE value="stack using queue m1" />
     <MESSAGE value="stack using queue m2" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack using queue m2" />
+    <MESSAGE value="non repeating char of a stream" />
+    <MESSAGE value="InterLeave Two Halfs Of A Queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="InterLeave Two Halfs Of A Queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="stack using queue m1">
-      <change afterPath="$PROJECT_DIR$/src/queue/StackUsingTwoQueue2.java" afterDir="false" />
+    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="stack using queue m2">
+      <change afterPath="$PROJECT_DIR$/src/queue/NonRepeatingLetterInAAtream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StackUsingTwoQueue2">
+  <component name="RunManager" selected="Application.NonRepeatingLetterInAAtream">
     <configuration name="Int" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queue.Int" />
       <module name="Data_structure" />
@@ -51,8 +51,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueUsingTwoStacks (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.QueueUsingTwoStacks" />
+    <configuration name="NonRepeatingLetterInAAtream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.NonRepeatingLetterInAAtream" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
@@ -64,7 +64,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueUsingTwoStacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueUsingTwoStacks (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queue.QueueUsingTwoStacks" />
       <module name="Data_structure" />
       <extension name="coverage">
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NonRepeatingLetterInAAtream" />
         <item itemvalue="Application.StackUsingTwoQueue2" />
         <item itemvalue="Application.StackUsingTwoQueue" />
         <item itemvalue="Application.QueueUsingTwoStacks (1)" />
         <item itemvalue="Application.Int" />
-        <item itemvalue="Application.QueueUsingTwoStacks" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728635395964</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="stack using queue m2">
+      <created>1728637921629</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728637921629</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +168,21 @@
     <MESSAGE value="using collection framework" />
     <MESSAGE value="using stack" />
     <MESSAGE value="stack using queue m1" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack using queue m1" />
+    <MESSAGE value="stack using queue m2" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack using queue m2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/queue/StackUsingTwoQueue2.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

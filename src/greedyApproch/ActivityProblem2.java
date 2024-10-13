@@ -1,4 +1,4 @@
-package queue;
+package greedyApproch;
 
 import java.util.ArrayList;
 import java.util.Arrays;

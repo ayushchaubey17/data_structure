@@ -1,5 +1,6 @@
 package queue;
 
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class MinimumCostOfConnectingRopes {
@@ -10,6 +11,7 @@ public class MinimumCostOfConnectingRopes {
         System.out.println("Total cost for connecting"
                 + " ropes is "
                 + minCost(ropes));
+
     }
 
     private static int minCost(int... ropes) {

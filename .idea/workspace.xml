@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="queue">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/col.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/ClimbingStairs2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/Fabonachi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedyApproch/IndianCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedyApproch/JobSequencingProblem.java" afterDir="false" />
+    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="dp-  type-1">
+      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/KnapSackZero_One.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +43,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ClimbingStairs2">
+  <component name="RunManager" selected="Application.KnapSackZero_One">
     <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dynamicProgramming.ClimbingStairs" />
       <module name="Data_structure" />
@@ -89,19 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndianCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedyApproch.IndianCoins" />
-      <module name="Data_structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greedyApproch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JobSequencingProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greedyApproch.JobSequencingProblem" />
       <module name="Data_structure" />
@@ -115,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KnapSackZero_One" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.KnapSackZero_One" />
+      <module name="Data_structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KnapSackZero_One" />
         <item itemvalue="Application.ClimbingStairs2" />
         <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.Fabonachi" />
         <item itemvalue="Application.JobSequencingProblem" />
-        <item itemvalue="Application.IndianCoins" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +233,28 @@
       <option name="project" value="LOCAL" />
       <updated>1728882960170</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="greedyApproch">
+      <created>1728911339063</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728911339063</updated>
+    </task>
+    <task id="LOCAL-00017" summary="collections">
+      <created>1728911358981</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728911358981</updated>
+    </task>
+    <task id="LOCAL-00018" summary="dp-  type-1">
+      <created>1728911379926</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728911379926</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,7 +282,10 @@
     <MESSAGE value="greedy ques" />
     <MESSAGE value="greedy new approch" />
     <MESSAGE value="queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="queue" />
+    <MESSAGE value="greedyApproch" />
+    <MESSAGE value="collections" />
+    <MESSAGE value="dp-  type-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp-  type-1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

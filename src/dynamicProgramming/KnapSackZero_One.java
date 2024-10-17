@@ -9,7 +9,7 @@ public class KnapSackZero_One {
         int weight[] = {2, 5, 1, 3, 4};
         int maxWeight = 7;
 
-//     int ans =   usingRecursion(value, weight, maxWeight, value.length);
+     int ans =   usingRecursion(value, weight, maxWeight, value.length);
 //        System.out.println(ans);
 
 

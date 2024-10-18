@@ -1,6 +1,7 @@
 package dynamicProgramming;
 
 import java.util.Arrays;
+import java.util.HashSet;
 
 public class LongestIncreasingSubsequence {
 
@@ -9,9 +10,16 @@ public class LongestIncreasingSubsequence {
         int arr1[] = {50, 3, 10, 7, 40, 80};
         //if repetation will be there then use hashset and all element of hashset in arr2
 
-        int arr2[]= arr1.clone();
-        Arrays.sort(arr1);
+//        int arr2[]= arr1.clone();
+//        Arrays.sort(arr1);
         //if repetation will be there then use hashset and all element of hashset in arr2
+
+        HashSet<Integer> hashSet = new HashSet<>();
+        for (int el:arr1) hashSet.add(el);
+
+        int arr2[] = new int[hashSet.size()];
+        int i=0;
+        for (int el:hashSet)arr2[i++] =el;
 
         int n = usingTabulation(arr1, arr2);
         System.out.println(n);

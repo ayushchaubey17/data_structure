@@ -15,6 +15,24 @@ public class MaximumElementInARange {
 
         System.out.println();
         System.out.println(ans);
+
+
+        update(arr, 2, 80);
+    }
+
+    private static void update(int[] arr, int ind, int value) {
+        update(0,0,arr.length-1,ind,value);
+    }
+
+    private static void update(int i, int si, int sj, int ind, int value) {
+        if (ind <si || ind>sj) return;
+        tree[i] = Math.max(tree[i], value);
+        if (si != sj) {
+            int mid = (si+sj)/2;
+            update(2*i+1, si, mid, ind, value);
+            update(2*i+1, mid+1, sj, ind, value);
+        }
+
     }
 
     private static int maxInRange(int[] arr, int qi, int qj) {

@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="dp-  type-2">
-      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/KnapSack_Zero_One.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/RodCuting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/TargetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/UnboundedKnapSack.java" afterDir="false" />
+    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="dp-  type-5--  catalans">
+      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/MatrixChainMultiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segmenttree/Creation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segmenttree/MaximumElementInARange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamicProgramming/KnapSackZero_One.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicProgramming/KnapSackZero_One.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +42,13 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RodCuting">
-    <configuration name="KnapSackZero_One" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.KnapSackZero_One" />
+  <component name="RunManager" selected="Application.MaximumElementInARange">
+    <configuration name="BinarySearchTreesPossible" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.BinarySearchTreesPossible" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +60,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnapSack_Zero_One" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.KnapSack_Zero_One" />
+    <configuration name="Creation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="segmenttree.Creation" />
+      <module name="Data_structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="segmenttree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixChainMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.MatrixChainMultiplication" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
@@ -74,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RodCuting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.RodCuting" />
+    <configuration name="MaximumElementInARange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="segmenttree.MaximumElementInARange" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicProgramming.*" />
+          <option name="PATTERN" value="segmenttree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,21 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TargetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.TargetSum" />
-      <module name="Data_structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnboundedKnapSack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.UnboundedKnapSack" />
+    <configuration name="MountainRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.MountainRange" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RodCuting" />
-        <item itemvalue="Application.UnboundedKnapSack" />
-        <item itemvalue="Application.KnapSack_Zero_One" />
-        <item itemvalue="Application.TargetSum" />
-        <item itemvalue="Application.KnapSackZero_One" />
+        <item itemvalue="Application.MaximumElementInARange" />
+        <item itemvalue="Application.Creation" />
+        <item itemvalue="Application.MatrixChainMultiplication" />
+        <item itemvalue="Application.MountainRange" />
+        <item itemvalue="Application.BinarySearchTreesPossible" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +264,63 @@
       <option name="project" value="LOCAL" />
       <updated>1728995113936</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="dp-  type-2-a">
+      <created>1729146874718</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1729146874719</updated>
+    </task>
+    <task id="LOCAL-00021" summary="dp-  type-3">
+      <created>1729227437878</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1729227437878</updated>
+    </task>
+    <task id="LOCAL-00022" summary="dp-  type-3-a">
+      <created>1729227454529</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1729227454529</updated>
+    </task>
+    <task id="LOCAL-00023" summary="dp-  type-3-b">
+      <created>1729227468641</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1729227468641</updated>
+    </task>
+    <task id="LOCAL-00024" summary="dp-  type-3-c-  important">
+      <created>1729243787425</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1729243787425</updated>
+    </task>
+    <task id="LOCAL-00025" summary="dp-  type-3-d-  important">
+      <created>1729279097058</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1729279097058</updated>
+    </task>
+    <task id="LOCAL-00026" summary="dp-  type-4--  very important">
+      <created>1729279120824</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1729279120824</updated>
+    </task>
+    <task id="LOCAL-00027" summary="dp-  type-5--  catalans">
+      <created>1729345678422</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1729345678422</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +352,15 @@
     <MESSAGE value="collections" />
     <MESSAGE value="dp-  type-1" />
     <MESSAGE value="dp-  type-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp-  type-2" />
+    <MESSAGE value="dp-  type-2-a" />
+    <MESSAGE value="dp-  type-3" />
+    <MESSAGE value="dp-  type-3-a" />
+    <MESSAGE value="dp-  type-3-b" />
+    <MESSAGE value="dp-  type-3-c-  important" />
+    <MESSAGE value="dp-  type-3-d-  important" />
+    <MESSAGE value="dp-  type-4--  very important" />
+    <MESSAGE value="dp-  type-5--  catalans" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp-  type-5--  catalans" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -311,6 +374,29 @@
           <url>file://$PROJECT_DIR$/src/dynamicProgramming/ClimbingStairs2.java</url>
           <line>29</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dynamicProgramming/LongestCommonSubsequence.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dynamicProgramming/EditDistance.java</url>
+          <line>44</line>
+          <properties class="dynamicProgramming.EditDistance" method="usingRecursion">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/segmenttree/Creation.java</url>
+          <line>63</line>
+          <properties class="segmenttree.Creation" method="getSum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

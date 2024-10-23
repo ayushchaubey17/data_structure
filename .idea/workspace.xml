@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="dp-  type-5--  catalans">
+    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="segment tree">
       <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/MatrixChainMultiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/segmenttree/Creation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/segmenttree/MaximumElementInARange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/MinimumPartitioning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,20 +45,7 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaximumElementInARange">
-    <configuration name="BinarySearchTreesPossible" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.BinarySearchTreesPossible" />
-      <module name="Data_structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MinimumPartitioning">
     <configuration name="Creation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="segmenttree.Creation" />
       <module name="Data_structure" />
@@ -99,6 +85,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinimumPartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.MinimumPartitioning" />
+      <module name="Data_structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MountainRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dynamicProgramming.MountainRange" />
       <module name="Data_structure" />
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumPartitioning" />
+        <item itemvalue="Application.MatrixChainMultiplication" />
         <item itemvalue="Application.MaximumElementInARange" />
         <item itemvalue="Application.Creation" />
-        <item itemvalue="Application.MatrixChainMultiplication" />
         <item itemvalue="Application.MountainRange" />
-        <item itemvalue="Application.BinarySearchTreesPossible" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729345678422</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="segment tree">
+      <created>1729587004880</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1729587004880</updated>
+    </task>
+    <task id="LOCAL-00029" summary="segment tree">
+      <created>1729587372966</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1729587372966</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,7 +348,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="using collection framework" />
     <MESSAGE value="using stack" />
     <MESSAGE value="stack using queue m1" />
     <MESSAGE value="stack using queue m2" />
@@ -360,7 +372,8 @@
     <MESSAGE value="dp-  type-3-d-  important" />
     <MESSAGE value="dp-  type-4--  very important" />
     <MESSAGE value="dp-  type-5--  catalans" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp-  type-5--  catalans" />
+    <MESSAGE value="segment tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="segment tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

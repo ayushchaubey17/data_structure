@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="tries">
-      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/MinimumNumberOfJumps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/CheapestFlightsWithKStop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/CycleDetection_DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/DijkastraAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/FindAllPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/HasPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/TopologicalSortUsingBfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/UsingAdjacencyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/bfsOptimised.java" afterDir="false" />
+    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="graph">
+      <change afterPath="$PROJECT_DIR$/src/graph/ConnectingCitiesWIthMinCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/ForObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/Heap_SOrt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/Intro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/K_Nearest_Cars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +49,13 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CheapestFlightsWithKStop">
-    <configuration name="CheapestFlightsWithKStop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.CheapestFlightsWithKStop" />
+  <component name="RunManager" selected="Application.K_Nearest_Cars">
+    <configuration name="ForObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heaps.ForObject" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="heaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DijkastraAlgorithm (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.DijkastraAlgorithm" />
+    <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heaps.Heap" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="heaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DijkastraAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.DijkastraAlgorithm" />
+    <configuration name="Heap_SOrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heaps.Heap_SOrt" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="heaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAllPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.FindAllPath" />
+    <configuration name="Intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heaps.Intro" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="heaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Try" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.Try" />
+    <configuration name="K_Nearest_Cars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heaps.K_Nearest_Cars" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="heaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CheapestFlightsWithKStop" />
-        <item itemvalue="Application.DijkastraAlgorithm" />
-        <item itemvalue="Application.DijkastraAlgorithm (1)" />
-        <item itemvalue="Application.FindAllPath" />
-        <item itemvalue="Application.Try" />
+        <item itemvalue="Application.K_Nearest_Cars" />
+        <item itemvalue="Application.Heap_SOrt" />
+        <item itemvalue="Application.Heap" />
+        <item itemvalue="Application.ForObject" />
+        <item itemvalue="Application.Intro" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729794005609</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="graph">
+      <created>1730233493951</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1730233493951</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,7 +380,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="non repeating char of a stream" />
     <MESSAGE value="InterLeave Two Halfs Of A Queue" />
     <MESSAGE value="quee" />
     <MESSAGE value="quee technique to generate binary" />
@@ -403,7 +404,8 @@
     <MESSAGE value="dp" />
     <MESSAGE value="dp knapsack based" />
     <MESSAGE value="tries" />
-    <option name="LAST_COMMIT_MESSAGE" value="tries" />
+    <MESSAGE value="graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

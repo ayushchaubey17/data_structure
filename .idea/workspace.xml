@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="graph">
+    <list default="true" id="4f874ec5-07a4-437e-8554-14bbe6028373" name="Changes" comment="heap">
+      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/BionomialCoefficient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicProgramming/CoinChange.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/graph/ConnectingCitiesWIthMinCost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heaps/ForObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heaps/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heaps/Heap_SOrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heaps/Intro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heaps/K_Nearest_Cars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/K_Weakest_SOldier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/SlidingWindowMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heaps/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/TopologicalSortUsingBfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/TopologicalSortUsingBfs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heaps/K_Nearest_Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heaps/K_Nearest_Cars.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +48,39 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.K_Nearest_Cars">
-    <configuration name="ForObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heaps.ForObject" />
+  <component name="RunManager" selected="Application.BionomialCoefficient">
+    <configuration name="BionomialCoefficient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.BionomialCoefficient" />
+      <module name="Data_structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.CoinChange" />
+      <module name="Data_structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlidingWindowMaximum (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heaps.SlidingWindowMaximum" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
@@ -63,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heaps.Heap" />
+    <configuration name="SlidingWindowMaximum (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heaps.SlidingWindowMaximum" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
@@ -76,34 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Heap_SOrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heaps.Heap_SOrt" />
-      <module name="Data_structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="heaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heaps.Intro" />
-      <module name="Data_structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="heaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="K_Nearest_Cars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heaps.K_Nearest_Cars" />
+    <configuration name="SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heaps.SlidingWindowMaximum" />
       <module name="Data_structure" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.K_Nearest_Cars" />
-        <item itemvalue="Application.Heap_SOrt" />
-        <item itemvalue="Application.Heap" />
-        <item itemvalue="Application.ForObject" />
-        <item itemvalue="Application.Intro" />
+        <item itemvalue="Application.BionomialCoefficient" />
+        <item itemvalue="Application.CoinChange" />
+        <item itemvalue="Application.SlidingWindowMaximum (2)" />
+        <item itemvalue="Application.SlidingWindowMaximum (1)" />
+        <item itemvalue="Application.SlidingWindowMaximum" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730233493951</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="heap">
+      <created>1730704984154</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1730704984154</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -380,7 +390,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="InterLeave Two Halfs Of A Queue" />
     <MESSAGE value="quee" />
     <MESSAGE value="quee technique to generate binary" />
     <MESSAGE value="combine ropes" />
@@ -405,7 +414,8 @@
     <MESSAGE value="dp knapsack based" />
     <MESSAGE value="tries" />
     <MESSAGE value="graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="graph" />
+    <MESSAGE value="heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="heap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -459,7 +469,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/graph/TopologicalSortUsingBfs.java</url>
-          <line>51</line>
+          <line>61</line>
           <properties class="graph.TopologicalSortUsingBfs">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

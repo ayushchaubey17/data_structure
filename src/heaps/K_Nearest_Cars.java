@@ -10,7 +10,7 @@ public class K_Nearest_Cars {
 
         int points[][] = {{3, 3}, {5, -1}, {-2, 4}};
         int k = 2;
-//        Arrays.sort(points,(a,b)->((a[1]*a[1])+(a[2]*a[2]))-((b[1]*b[1])+(b[2]*b[2])));
+//      Arrays.sort(points,(a,b)->((a[1]*a[1])+(a[2]*a[2]))-((b[1]*b[1])+(b[2]*b[2])));
 
         for(int []arr: points)
             System.out.println(Arrays.toString(arr));
@@ -57,8 +57,8 @@ public class K_Nearest_Cars {
     }
 
     public static Points remove() {
-Points   ans = heap[0];
-heap[0] = heap[--i];
+   Points   ans = heap[0];
+   heap[0] = heap[--i];
         heapify(0);
         return ans;
 
@@ -83,7 +83,7 @@ heap[0] = heap[--i];
     }
 
 
-    private static void method2(int[][] points, int k) {
+     private static void method2(int[][] points, int k) {
         PriorityQueue<Points> priorityQueue = new PriorityQueue<>();
         for (int i = 0; i < points.length ; i++)
             priorityQueue.add(new Points(i, (points[i][0] * points[i][0]) + (points[i][1] * points[i][1])));
@@ -96,7 +96,7 @@ heap[0] = heap[--i];
     }
 
     static class Points implements Comparable<Points> {
-        private  int index,x,y,dist;
+        private  int index,dist;
 
         public Points(int index,int dist) {
             this.index = index;

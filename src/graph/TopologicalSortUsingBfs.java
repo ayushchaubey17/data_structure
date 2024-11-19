@@ -1,4 +1,8 @@
+
+
 package graph;
+
+import heaps.SlidingWindowMaximum;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,7 +11,9 @@ import java.util.Queue;
 
 public class TopologicalSortUsingBfs {
    static ArrayList<Edge> graph[] = new ArrayList[6];
-    static class  Edge{
+
+
+   static class  Edge{
         int src;
         int des;
 
@@ -16,10 +22,13 @@ public class TopologicalSortUsingBfs {
             this.des = des;
         }
     }
+
     public static void main(String[] args) {
 
         
         creation(graph);
+
+
 
         ts(graph);
 
@@ -34,6 +43,7 @@ public class TopologicalSortUsingBfs {
 
         Queue<Integer> queue = new LinkedList<>();
         for (int i=0;i<inDegree.length ;i++)if (inDegree[i]==0) queue.offer(i);
+
 
 
         while (!queue.isEmpty()) {
